@@ -78,9 +78,9 @@ const Category:NextPage<Props> = ({posts,category,allPosts}) => {
           </div>
           </Link> */}
       <div className={`${styles}`}>
-      {posts.map((post) =>(
-        <Link href={`/${post.slug}`}>
-          <div className={`${styles.post_container}`}>
+      {posts.map((post,i:number) =>(
+        <Link href={`/${post.slug}`} key={i}>
+          <div className={`${styles.post_container}`} key={i}>
           <a className={`${styles.post_title}`}><h3>{post.frontMatter.title}</h3></a>
           <h4 className={`${styles.post_date}`}>{post.frontMatter.date}</h4>
           <img src={`${post.frontMatter.img}`} alt="" />

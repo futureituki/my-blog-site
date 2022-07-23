@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import Link from "next/link";
 import styles from '../styles/Home.module.css'
-import { BsGithub } from "react-icons/bs";
 const Person:NextPage = () => {
   return (
     <div className={styles.person_container}>
