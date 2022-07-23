@@ -1,0 +1,33 @@
+.header_container {
+  height:70px;
+  width:90%;
+  margin:0 auto;
+  padding:40px 0;
+}
+.header_content {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.title {
+  color:black;
+  font-size:1.8rem;
+  line-height:1.5;
+}
+.header_nav {
+  width:20%;
+  height:70px;
+}
+.header_ul {
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  height:70px;
+}
+.header_li {
+  margin-right:10px;
+  list-style:none;
+}
+.header_small_logo:hover {
+  fill:green;
+}

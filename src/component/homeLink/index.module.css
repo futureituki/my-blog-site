@@ -1,0 +1,10 @@
+.back_home_link {
+  margin:80px auto;
+  padding:10px 0;
+  width:30%;
+  font-size:1.5rem;
+  text-align:center;
+}
+.back_home_link:hover {
+  border-bottom:solid 1px #000;
+}
