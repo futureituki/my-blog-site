@@ -54,8 +54,8 @@ const Home: NextPage<Props> = ({allPosts}) => {
           <Link href={`${post.slug}`} >
             <a><h1 className={styles.post_title}>{post.title}</h1></a>
           </Link>
-            {post.categories?.map((category) => (
-              <Link href={`/categories/${category}`}>
+            {post.categories?.map((category,i) => (
+              <Link href={`/categories/${category}`} key={i}>
                 <a className={`${styles.category_link}`}>{category}</a>
               </Link>
             ))}
