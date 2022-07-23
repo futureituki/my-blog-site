@@ -48,9 +48,9 @@ const Home: NextPage<Props> = ({allPosts}) => {
         <div>
         {allPosts
         .slice(offset, offset + perPage)
-        .map((post:Post,i:number)=>{
+        .map((post:Post)=>{
           return (
-          <div className={styles.post_container} key={i}>
+          <div className={styles.post_container} key={post.slug}>
           <Link href={`${post.slug}`} >
             <a><h1 className={styles.post_title}>{post.title}</h1></a>
           </Link>
