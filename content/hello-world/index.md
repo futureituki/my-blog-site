@@ -1,7 +1,7 @@
 ---
 title: "池袋"
 date: "2022/7/24"
-img: ""
+img: "/work.jpeg"
 categories: ['本']
 ---
 
