@@ -50,7 +50,7 @@ export const getStaticProps = ({params}:any) => {
 };
 
 export const getStaticPaths = () => {
-  const categories =  ['本','英語'];
+  const categories =  ['挨拶'];
   const paths = categories.map((category) => ({params:{category:category.toString()}}))
   return {
     paths,
